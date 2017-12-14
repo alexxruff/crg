@@ -1,0 +1,246 @@
+html, body{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	background-color: white;
+	font-family: 'Roboto', sans-serif;
+	font-size: 16px; 
+
+}
+.menuContent{
+	width: 100%;
+	/*padding: 20px 0px;*/
+	display: flex;
+	justify-content: center;
+}
+.menuAdjust{
+	width: 940px;
+	display: flex;
+	flex-direction: column;
+}
+.menuTop{
+	width: 100%;
+	padding: 10px 0;
+	display: flex;
+	flex-direction: row;
+}
+.menuLogo{
+	width: 50%;
+}
+.menuLogo img{
+	width: 200px;
+}
+.menuNumEmail{
+	width: 50%;
+	display: flex;
+	justify-content: flex-end;
+	align-items: center;
+}
+.menuNumEmail span{
+	color: #7e7f84;
+	font-size: 14px;
+}
+.menuNumEmail span:first-child{
+	margin-right: 20px;
+}
+.menuNumEmail span i{
+	margin-right: 4px;
+}
+.menuFixed{
+	width: 100%;
+	border-top: 1px solid #F1F1F1;
+}
+.menuFixedUl{
+	margin: 0;
+	padding: 0;
+	display: flex;
+	flex-direction: row; 
+	width: 50%;
+	justify-content: space-between;
+	align-items: center;
+	height: 50px;
+}
+.menuFixedUl li{
+	list-style: none;
+}
+.menuFixedUl li a{
+	text-decoration: none;
+	color: #7e7f84;
+	font-size: 15px; 
+}
+.menuFixedUl li a:hover{
+	color: #f35a40;
+}
+/*Slide*/
+.mySlides {display:none}
+
+/* Slideshow container */
+.slideshow-container {
+  width: 100%;
+  position: relative;
+  margin: auto;
+}
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  padding: 16px;
+  margin-top: -22px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+}
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+/* Caption text */
+.text {
+  color: #f2f2f2;
+  font-size: 15px;
+  padding: 8px 0px;
+  position: absolute;
+  bottom: 8px;
+  width: 50%;
+  bottom: 20%;
+  left: 13%;
+  /*text-align: center;*/
+}
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+/* The dots/bullets/indicators */
+.dot {
+  cursor: pointer;
+  height: 10px;
+  width: 10px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+.active, .dot:hover {
+  background-color: #717171;
+}
+/* Fading animation */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+@-webkit-keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+/* On smaller screens, decrease text size */
+@media only screen and (max-width: 300px) {
+  .prev, .next,.text {font-size: 11px}
+}
+/*/Slide*/
+
+.service{
+	width: 100%;
+	display: flex;
+	justify-content: center;
+}
+.serviceAdjust{
+	width: 940px;
+}
+.serviceAdjust h3{
+	color: #454545;
+	width: 100%;
+	font-size: 30px;
+	text-align: center;
+}
+.serviceInfo{
+	display: flex;
+}
+.serviceInfo div{
+	width: 50%;
+	height: 300px;
+}
+.serviceInfo div img{
+	width: 97%;
+}
+.serviceInfo .serviceImg{
+	width: 50%;
+	display: flex;
+	justify-content: flex-end;
+}
+.serviceInfo div p{
+	color: #7e7f84;
+	line-height: 21px;
+	font-size: 16px;
+	/*white-space: pre-line;*/
+	line-height: 22px;
+}
+.nar{
+	color: #f4891f;
+	text-transform: uppercase;
+	font-size: 28px;
+	font-weight: 500;
+	margin: 0;
+}
+.azul{
+	color: #0a4c92;
+	/*text-align: right;*/
+	text-transform: uppercase;
+	font-size: 28px;
+	font-weight: 500;
+	margin: 0;
+}
+.puntos{
+	display: flex;
+	margin-bottom: 5px;
+}
+.puntos .iAzul{
+	margin-right: 5px;
+	color: #0a4c92;/*Azul*/
+}
+.puntos .iNar{
+	margin-right: 5px;
+	color: #f4891f;/*Azul*/
+}
+.parallax{
+
+	background: url('../img/seguros_y_fianzas_trato.png') no-repeat; 
+	background-size: cover; 
+	background-attachment: fixed;
+}
+.parallaxBackground{
+	background: rgba(0,0,0,.4);
+	height: 300px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.parallaxAdjust{
+	width: 940px;
+	text-align: center;
+	font-size: 30px;
+	color: white;
+	text-shadow: rgba(0,0,0,.6) 5px 5px 15px; 
+	/*height: 300px;*/
+}
+
+
