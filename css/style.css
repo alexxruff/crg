@@ -242,5 +242,64 @@ html, body{
 	text-shadow: rgba(0,0,0,.6) 5px 5px 15px; 
 	/*height: 300px;*/
 }
+.blog{
+	background-color: #f3f3f3;
+	height: 300px;
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	/*align-items: center; */
+}
+.blogAdjust{
+	width: 940px;
+	text-align: center;
+}
+.blogAdjust h4{
+	text-align: center;
+	color: #454545;
+	text-transform: uppercase;
+	font-size: 30px;
+}
+.footer{
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	background-color: #073f64;
+	padding: 20px 0; 
+}
+.footerAdjust{
+	width: 940px;
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+}
+.footerAdjust div{
+	width: 50%;
+	color: white;
+	font-size: 13px;
+}
+.footerAdjust .redes{
+	display: flex;
+	justify-content: flex-end;
+	align-items: center;
+}
+.footerAdjust .redes .redesI{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	width: 25%; 
+}
+.redes a{
+	text-decoration: none;
+	font-size: 20px;
+	color: white;
+}
+.redes a:hover{
+	color: #f35a40;
+	cursor: pointer;
+}
+
+
+
 
 
