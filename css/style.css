@@ -46,9 +46,29 @@ html, body{
 .menuNumEmail span i{
 	margin-right: 4px;
 }
+.menuScroll{
+	display: none;
+	transition: 1s;
+}
+.menuFixedTop{
+	width: 100%;
+	position: fixed;
+	z-index: 1100;
+	background-color: white;
+	box-shadow: rgba(0,0,0,.2) 0px 4px 8px;
+}
+.menuAdjustFixedcien{
+	width: 100%;
+	display: flex;
+	justify-content: center;
+}
+.menuAdjustFixed{
+	width: 940px;
+}
 .menuFixed{
 	width: 100%;
 	border-top: 1px solid #F1F1F1;
+	display: flex;
 }
 .menuFixedUl{
 	margin: 0;
@@ -70,6 +90,15 @@ html, body{
 }
 .menuFixedUl li a:hover{
 	color: #f35a40;
+}
+.logoMenu{
+	width: 50%;
+	display: flex;
+	justify-content: flex-end;
+	align-items: center;
+}
+.logoMenu img{
+	height: 40px;
 }
 /*Slide*/
 .mySlides {display:none}
@@ -298,6 +327,140 @@ html, body{
 	color: #f35a40;
 	cursor: pointer;
 }
+
+/*Sección nosotros*/
+.portadaNosotros{
+	background: url('../img/slide.png') no-repeat;
+	width: 100%;
+	background-size: cover; 
+	height: 350px;
+}
+.historiaNosotros{
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	padding-bottom: 20px;
+}
+.historiaNosotrosAdjust{
+	width: 940px;
+	text-align: justify;
+	line-height: 23px;
+	color: #7e7f84;
+	white-space: pre-line;
+	margin-top: 10px;
+	font-size: 18px; 
+	font-weight: 300;
+}
+.misVis{
+	width: 100%;
+	display: flex;
+	justify-content: center;
+}
+.misVisAdjust{
+	width: 940px;
+	font-size: 17px; 
+}
+.mis{
+	width: 100%;
+	display: flex;
+}
+.vis{
+	width: 100%;
+	display: flex;
+}
+.misVis .misVisAdjust .mis div{
+	background-color: #073f64;
+	width: 50%;
+	color: white;
+	/*padding: 15px 0;*/
+
+}
+.misVis .misVisAdjust .mis div img{
+	width: 100%;
+}
+.misVis .misVisAdjust .vis div img{
+	width: 100%;
+}
+.misVis .misVisAdjust .mis div p{
+	padding: 10px 20px; 
+}
+.misVis .misVisAdjust .mis div h3{
+	/*width: 100%;*/
+	font-size: 30px;
+	font-weight: 300px;
+	margin-top: 10px;
+	padding-left: 15px;
+}
+.misVis .misVisAdjust .vis div p{
+	padding: 10px 20px; 
+}
+.misVis .misVisAdjust .vis div h3{
+	/*width: 100%;*/
+	font-size: 30px;
+	font-weight: 300px;
+	margin-top: 10px;
+	padding-left: 15px;
+}
+.misVis .misVisAdjust .vis div{
+	background-color: #073f64;
+	width: 50%;
+	color: white;
+	font-weight: 300px;
+	/*padding: 15px 0;*/
+}
+.corazon{
+	width: 100%;
+	display: flex;
+	justify-content: center;
+}
+.corazonAdjust{
+	width: 940px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+.imgCorazonText{
+	width: 100%;
+	display: flex;
+	align-items: center;
+}
+.imgCorazonText div{
+	width: 50%;
+}
+.imgCorazonText div img{
+	width: 100%;
+}
+.imgCorazonText div h3{
+	width: 100%;
+	font-size: 40px;
+	text-align: center;
+	color: #f4891f;
+}
+.corazonInfo{
+	width: 100%;
+
+}
+.corazonInfo p{
+	color: #7e7f84;
+	line-height: 23px;
+	text-align: justify;
+	font-weight: 300;
+	font-size: 19px; 
+}
+.corazonInfo p span{
+	font-weight: 400;
+	color: #0a4c92;
+}
+/*Fin Sección nosotros*/
+
+
+
+
+
+
+
+
+
 
 
 
