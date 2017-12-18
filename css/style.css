@@ -496,7 +496,115 @@ html, body{
 	color: #0a4c92;
 }
 /*Fin Sección nosotros*/
-
+/*Sección Contacto*/
+.portadaContacto{
+	background: url('../img/slide.png') no-repeat;
+	width: 100%;
+	background-size: cover; 
+	height: 350px;
+	display: flex;
+	justify-content: center;
+}
+.portadaContactoAdjust{
+	width: 940px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.portadaContactoAdjust h2{
+	color: white;
+	font-size: 50px;
+	text-shadow: rgba(0,0,0,.4) 0px 0px 10px; 
+}
+.formularioContacto{
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	background-color: #f3f3f3; 
+}
+.formularioAdjust{
+	width: 940px;
+	display: flex;
+	padding: 3% 0; 
+}
+.inputsContacto{
+	width: 50%;
+	height: 180px;
+	display: flex;
+	flex-direction: column;
+	/*align-items: center;*/
+	justify-content: space-between;
+}
+.inputUnique{
+	width: 90%;
+	padding: 15px 5px;
+	border-radius: 5px;
+	border: 1px solid #e1e1e1;
+}
+.textAreaContacto{
+	width: 50%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.textAreaUnique{
+	width: 98%;
+	height: 170px;
+	border-radius: 5px;
+	border: 1px solid #e1e1e1;
+	padding: 5px; 
+}
+.formularioBoton{
+	width: 940px;
+	display: flex;
+	justify-content:center;
+}
+.formularioBoton input{
+	background: #073f64;
+	color: white;
+	padding: 12px 42px;
+	border-radius: 20px;
+	margin-bottom: 30px;
+	outline: none;
+	font-size: 15px;
+	font-weight: 300; 
+	border: 1px solid #073f64;
+}
+.formularioBoton input:hover{
+	background: transparent;
+	color: #073f64;
+	transition: .5s;
+	font-weight: 400;
+}
+.contactoMaps{
+	width: 100%;
+	display: flex;
+	justify-content: center;
+}
+.contactoMapsAdjust{
+	width: 940px;
+	display: flex;
+	flex-direction: column;
+}
+.contactoMapsRow{
+	width: 100%;
+	display: flex;
+	padding: 10px 0; 
+}
+.mapsDirectionInfo{
+	width: 50%;
+}
+.mapsDirectionInfo p{
+	white-space: pre-line;
+	padding-left: 10px;
+	font-size: 25px; 
+}
+.mapsDirection{
+	width: 50%;
+}
+/*Fin Sección Contacto*/
 
 
 
