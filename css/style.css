@@ -58,7 +58,7 @@ html, body{
 	justify-content: center;
 }
 .menuAdjust{
-	width: 940px;
+	width: 1024px;
 	display: flex;
 	flex-direction: column;
 }
@@ -107,7 +107,7 @@ html, body{
 	justify-content: center;
 }
 .menuAdjustFixed{
-	width: 940px;
+	width: 1024px;
 }
 .menuFixed{
 	width: 100%;
@@ -177,16 +177,35 @@ html, body{
   background-color: rgba(0,0,0,0.8);
 }
 /* Caption text */
-.text {
-  color: #f2f2f2;
-  font-size: 15px;
+.textSlide {
   padding: 8px 0px;
   position: absolute;
   bottom: 8px;
   width: 50%;
   bottom: 20%;
-  left: 13%;
+  left: 10%;
   /*text-align: center;*/
+}
+.containerTextSlide{
+	width: 60%;
+	display: flex;
+	flex-direction: column;
+}
+.containerTextSlide p{
+	color: #0a4c92;
+	text-shadow: rgba(255,255,255,.4) 0px 3px 5px;
+	font-weight: 400;
+}
+.containerTextSlide h3{
+	color: #0a4c92;
+	font-size: 50px;
+	margin: 0px;
+}
+.containerTextSlide h4{
+	color: #f4891f;
+	font-size: 50px;
+	margin: 0px;
+	font-weight: 400; 
 }
 /* Number text (1/3 etc) */
 .numbertext {
@@ -237,7 +256,7 @@ html, body{
 	justify-content: center;
 }
 .serviceAdjust{
-	width: 940px;
+	width: 1024px;
 }
 .serviceAdjust h3{
 	color: #454545;
@@ -308,7 +327,7 @@ html, body{
 	align-items: center;
 }
 .parallaxAdjust{
-	width: 940px;
+	width: 1024px;
 	text-align: center;
 	font-size: 30px;
 	color: white;
@@ -324,7 +343,7 @@ html, body{
 	/*align-items: center; */
 }
 .blogAdjust{
-	width: 940px;
+	width: 1024px;
 	text-align: center;
 }
 .blogAdjust h4{
@@ -341,7 +360,7 @@ html, body{
 	padding: 20px 0; 
 }
 .footerAdjust{
-	width: 940px;
+	width: 1024px;
 	display: flex;
 	flex-direction: row;
 	align-items: center;
@@ -374,10 +393,60 @@ html, body{
 
 /*Sección nosotros*/
 .portadaNosotros{
-	background: url('../img/slide.png') no-repeat;
+	/*background: url('../img/nosotros.png') no-repeat;*/
 	width: 100%;
-	background-size: cover; 
-	height: 350px;
+	/*background-size: cover; */
+	/*height: 350px;*/
+}
+.imPortadaNosotros{
+	width: 100%;
+}
+.nosotrosText{
+	width: 100%;
+	position: relative;
+}
+.nosotrosTextDiv{
+	width: 100%;
+	position: absolute;
+	top: -70px;
+}
+.nosotrosTextDivAdjus{
+	width: 100%;
+	display: flex;
+	justify-content: center;
+}
+.nosotrosTextDivAdjustPx{
+	width: 1024px;
+}
+.nosotrosTextDivAdjustPx h3{
+	width: 35%;
+	font-size: 50px;
+	color: #0a4c92;
+	margin: 0;
+	font-weight: 400; 
+	background: url('../img/background-white.png') no-repeat;
+	background-size: cover;
+	padding-left: 5px;
+	padding-bottom: 10px;
+	box-shadow: rgba(0,0,0,.3) 0px 5px 5px;
+}
+.contactoTextDivAdjustPx{
+	width: 1024px;
+	display: flex;
+	justify-content: flex-end;
+}
+.contactoTextDivAdjustPx h3{
+	width: 35%;
+	font-size: 50px;
+	color: #0a4c92;
+	margin: 0;
+	text-align: right;
+	font-weight: 400; 
+	background: url('../img/background-gray.png') no-repeat;
+	background-size: cover;
+	padding-right: 10px;
+	padding-bottom: 10px;
+	box-shadow: rgba(0,0,0,.3) 0px 5px 5px;
 }
 .historiaNosotros{
 	width: 100%;
@@ -386,7 +455,7 @@ html, body{
 	padding-bottom: 20px;
 }
 .historiaNosotrosAdjust{
-	width: 940px;
+	width: 1024px;
 	text-align: justify;
 	line-height: 23px;
 	color: #7e7f84;
@@ -401,7 +470,7 @@ html, body{
 	justify-content: center;
 }
 .misVisAdjust{
-	width: 940px;
+	width: 1024px;
 	font-size: 17px; 
 }
 .mis{
@@ -458,7 +527,7 @@ html, body{
 	justify-content: center;
 }
 .corazonAdjust{
-	width: 940px;
+	width: 1024px;
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
@@ -498,7 +567,7 @@ html, body{
 /*Fin Sección nosotros*/
 /*Sección Contacto*/
 .portadaContacto{
-	background: url('../img/slide.png') no-repeat;
+	background: url('../img/slide2.png') no-repeat;
 	width: 100%;
 	background-size: cover; 
 	height: 350px;
@@ -506,7 +575,7 @@ html, body{
 	justify-content: center;
 }
 .portadaContactoAdjust{
-	width: 940px;
+	width: 1024px;
 	display: flex;
 	justify-content: center;
 	align-items: center;
@@ -525,7 +594,7 @@ html, body{
 	background-color: #f3f3f3; 
 }
 .formularioAdjust{
-	width: 940px;
+	width: 1024px;
 	display: flex;
 	padding: 3% 0; 
 }
@@ -557,7 +626,7 @@ html, body{
 	padding: 5px; 
 }
 .formularioBoton{
-	width: 940px;
+	width: 1024px;
 	display: flex;
 	justify-content:center;
 }
@@ -584,7 +653,7 @@ html, body{
 	justify-content: center;
 }
 .contactoMapsAdjust{
-	width: 940px;
+	width: 1024px;
 	display: flex;
 	flex-direction: column;
 }

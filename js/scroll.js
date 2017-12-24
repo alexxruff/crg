@@ -1,7 +1,20 @@
 $(document).ready(function(){
+
+	$('#service').click(function(){
+		$('body, html').animate({
+			scrollTop: $('#servicios').offset().top
+		}, 500);
+
+	});	
+	$('#serviceFix').click(function(){
+		$('body, html').animate({
+			scrollTop: $('#servicios').offset().top
+		}, 500);
+
+	});	
+
 	$(window).scroll(function(){
 		var barra = $(window).scrollTop();
-		console.log(barra);
 		if (barra > 60) {
 			$('.menuScroll').css({
 				'display': 'block',
