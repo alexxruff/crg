@@ -713,7 +713,7 @@ html, body{
 }
 .contactoMapsAdjustResponsive{
 	display: none;
-	display: flex;
+	/*display: flex;*/
 	flex-direction: column;
 	width: 90%;
 }
@@ -760,6 +760,9 @@ html, body{
 	}
 	.containerTextSlide h4{
 		font-size: 40px;
+	}
+	.contactoMapsAdjustResponsive{
+		display: none;
 	}
 }
 @media (max-width: 720px){
